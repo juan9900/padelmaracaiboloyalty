@@ -1,0 +1,54 @@
+:root {
+  --primary: #152129;
+  --primaryDarker: #00639b;
+  --secondary: #2b393f;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+html {
+  overflow-x: hidden;
+}
+.navbar {
+  background-color: var(--primary);
+}
+
+.navbar-brand img {
+  width: 40%;
+}
+
+.btn-primary {
+  background: var(--primary);
+  border: var(--primary);
+}
+
+.btn-primary:hover {
+  background: var(--primaryDarker);
+}
+
+h1 {
+  color: var(--primary);
+  font-weight: 800;
+}
+
+h2 {
+  color: var(--secondary);
+  display: block;
+  font-weight: 700;
+}
+
+.title-container {
+  padding: 0 1rem;
+}
