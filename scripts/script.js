@@ -1,13 +1,13 @@
 const userForm = document.getElementById("user-form");
 
-const LL_API_KEY = "1eFO7DbNUxgRj1dwuCA2lB";
+const LL_API_KEY = "5dq14Qw1WN8TG4ViSLajc5";
 const LL_API_SECRET =
-  "kMhBMRfNauYFycaCsvEj8KSN1h8So2dPYypeiHk23jGgrbArF8wlKOUA8xqhGdi9";
-const LL_USERNAME = "pruebatest";
+  "vQozH0MOT4wxAo0jo7eonuPRd49UOEImBquMWefAa3hPWwQoaqpWY4C7uGZ8Q1vs";
+const LL_USERNAME = "padelmaracaibo";
 // TODO: Cambiar TERMS_URL y URL_PROGRAM ycambiar el link del webhook en el post
 
 let jwt = "";
-const URL_PROGRAM = "3ZutRxu70x7ZyVwimznUBu";
+const URL_PROGRAM = "7DeR8g9GE04UYJTQKftuDd";
 const TERMS_URL = `https://api.loopyloyalty.com/v1/campaign/id/${URL_PROGRAM}`;
 const URL_ENROLL = `https://api.loopyloyalty.com/v1/enrol/${URL_PROGRAM}`;
 const URL_CHECK = "https://hook.us1.make.com/16yheio4dmz7daw59iys6hpssdhb9r8t";

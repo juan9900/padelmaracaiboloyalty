@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="/styles/styles.css">
-  <title>Padel Maracaibo</title>
+  <title>Pádel Maracaibo</title>
 </head>
 
 <body>
@@ -20,7 +20,7 @@
   </nav>
 
   <div class="row">
-    <h1 class="font-weight-bold text-center pt-3">Padel Maracaibo</h1>
+    <h1 class="font-weight-bold text-center pt-3">Pádel Maracaibo</h1>
     <div class="title-container">
       <h2 class="text-center" id="price-container"></h2>
 
@@ -30,7 +30,7 @@
       <form action="" id="user-form" class="needs-validation" novalidate>
         <div class="form-group mt-3 mb-3">
           <label for="nombre">Nombre y apellido:</label>
-          <input class="form-control" type="text" name="nombre" id="nombre" required>
+          <input autocomplete="name" class="form-control" type="text" name="nombre" id="nombre" required>
           <div class="invalid-feedback">
             Por favor ingresa tu nombre y apellido.
           </div>
@@ -41,14 +41,14 @@
 
         <div class="form-group mt-3 mb-3 d-flex flex-column">
           <label for="numero">Número telefónico:</label>
-          <input class="form-control" type="tel" name="numero" id="numero" required>
+          <input autocomplete="phone" class="form-control" type="tel" name="numero" id="numero" required>
           <div class="invalid-feedback">
             Por favor ingresa tu numero telefónico.
           </div>
 
         </div>
         <div class="form-group mt-3 mb-3"><label for="correo">Correo electrónico:</label>
-          <input class="form-control" type="email" name="correo" id="correo" required>
+          <input autocomplete="email" class="form-control" type="email" name="correo" id="correo" required>
           <div class="invalid-feedback">
             Por favor ingresa tu correo electrónico.
           </div>
